@@ -1,6 +1,8 @@
 
 
 # AWS Certified Cloud Practitioner training 
+__________________________________________
+___________________________________________
 
 - what is cloud computing ?
 
@@ -264,7 +266,7 @@ _____________________________________________________
 
 - know  your initialism
    .... ????!!  
-   
+
 ## Security
 
 ## Variation Study 
