@@ -1,7 +1,5 @@
-
-
-# AWS Certified Cloud Practitioner training 
 __________________________________________
+# AWS Certified Cloud Practitioner training 
 ___________________________________________
 
 - what is cloud computing ?
