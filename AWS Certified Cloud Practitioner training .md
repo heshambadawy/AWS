@@ -169,7 +169,7 @@ _____________________________________________________
   -  use [QuickSight] to visualize your billing Data
  
 
- _________________________Technology Overview
+ _________________________Technology Overview____________________
 
  - AWS organization and Accounts
    - u can promoted your account to organization amd underneath u can create multiple account 
@@ -185,23 +185,88 @@ _____________________________________________________
 
 - Database Services  
 
- - Dynamic DB - nosql key/value database (cassandra)
-    - very flat and sample and have million record and guarantee read and write  
- - DocumentDB NoSQL Document database that is MongoDb compatible 
- - RDS Relational database that support multiple engines (mysql , postgress ,mara db , oracle ,MSSQL ,Aurora)
-     - Aurora mysql (5x faster) and PSQL(3x faster ) database fully managed [it has high availability and durability ]
-     - Aurora serverless - only runs when u need it like AWS lambda
- - Neptune Managed graph database
- - Redshift columnar database petabyte warehouse
- - Elastic cache - Redis or memcache
+    - Dynamic DB - nosql key/value database (cassandra)
+        - very flat and sample and have million record and guarantee read and write  
+    - DocumentDB NoSQL Document database that is MongoDb compatible 
+    - RDS Relational database that support multiple engines (mysql , postgress ,mara db , oracle ,MSSQL ,Aurora)
+        - Aurora mysql (5x faster) and PSQL(3x faster ) database fully managed [it has high availability and durability ]
+        - Aurora serverless - only runs when u need it like AWS lambda
+    - Neptune Managed graph database
+    - Redshift columnar database petabyte warehouse
+    - Elastic cache - Redis or memcache
 
 
 - Provision
 
   - is to set up a bunch of resources and services for u 
-    - Elastic Beanstalk :- 
-        service for scaling and deployment web Apps and services built with [node ,java ,.net ,php Go or even Docker]  like  
+  - Elastic Beanstalk :- 
+       -  service for scaling and deployment web Apps and services built with [node ,java ,.net ,php Go or even Docker]  like  
           heroku .
-        u just choose ur container for .Net and u Don't care about infrastructure
+       - u just choose ur container for .Net and u Don't care about infrastructure .
 
-      -   
+  - Opsworks :-
+     - it is a configuration management Service  that provides managed instances of Chef and Puppet
+     - it help u configure your instances
+     - chef OR puppet is developer tool to grammatically managed a server using a programming language
+
+  - cloud information    
+    - infrastructure as a code  using  json or Yaml and define all AWS resources that u provision and configured
+     
+  -  AWS QuickStart  
+     -pre_
+     made packages that can launched and  configure your AWS compute ,network ,storage and other service require for 
+      depl
+      oyment a workload on AWS  
+
+
+  - AWS Marketplace 
+    - a di
+    gital catalogue of thousand of software listing from independent software vendor u can buy and test and deploy 
+ 
+- AWS computing
+    - EC2 elastic compute Cloud , highly configurable server (where you get to choose your CPU , Memory and network )  
+
+    - ECS which stands for elastic container service and this is basically docker as a service so if you need to run micro services or a 
+        docker , every application you're going to be launching it on EC2 u need to choose type of EC2 --> that ec2 instance will come
+        pre-configured with docker running on it and then it has a really nice interface  so that you would just define your container 
+        within something called [task or service] 
+
+    - Far gate  
+            this is also for micro services and this is kind of like the evolution of ECS so with ECS you choose what ec2 instance you you
+            need to use  but for fargate you don't choose ec2 instance you just would define your containers within a task or a service
+            you're just paying for the runtime and the CPU utilized ok so it's kind of like lambdas
+
+    - EKS _Azure kubuernetes Service _ 
+    a service to run kubernetes and it's called EKS 
+
+    - Lambda 
+        it's serverless to run your code  , there's nothing to  provision and you are just paying for the compute time based on how
+        long it runs
+
+    -  Elastic Beanstalk
+        - orchestrate a various amounts aws services  including Ec2, S3 , SNS ,cloudwatch , autoscaling , Elastic load balancer 
+        - it for host your app 
+    -  AWS batch  
+        - plan and scheduled Excute of batch computing workload across full range of AWS compute service
+        - it launching Ec2 instances for u using Spot pricing  
+
+- AWS storage Service 
+ .... ????!! 
+
+- Business Centric Service 
+   .... ????!! 
+
+- Enterprise Integration 
+     .... ????!! 
+
+- logging Service 
+ .... ????!!  
+
+- know  your initialism
+   .... ????!!  
+   
+## Security
+
+## Variation Study 
+
+________________________________________
